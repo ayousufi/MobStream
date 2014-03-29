@@ -94,7 +94,7 @@ img {
 	height:32px;
 }
 
-#createRoomForm {
+#createForm {
 	width:100%;
 	height:50%;
 	display:block;
@@ -106,11 +106,11 @@ img {
 	display:block;
 }
 
-#createRoomForm * {
+#createForm * {
 	font-size:80pt;
 }
 
-#joinRoomForm {
+#joinForm {
 	width:100%;
 	height:50%;
 	display:block;
@@ -118,7 +118,7 @@ img {
 	bottom:0;
 }
 
-#joinRoomForm * {
+#joinForm * {
 	font-size:80pt;
 }
 
@@ -269,7 +269,7 @@ li {
 	width: 100%;
 	z-index: 10;
 }
-#roomsdialogbox{
+#dialogbox{
 	display: none;
 	position:fixed;
 	background-color: transparent;
@@ -280,17 +280,7 @@ li {
 	background:#FFF; 
 	margin:300px auto;
 }
-#nicknamedialogbox{
-	display: none;
-	position:fixed;
-	background-color: transparent;
-	border-radius:10px;
-	width:460px;
-	z-index: 10;
-	height:0px;
-	background:#FFF; 
-	margin:300px auto;
-}
+
 #dialogboxhead{ 
 	background-color: #333; 
 	font-size:20px; 
@@ -299,7 +289,7 @@ li {
 	z-index: 10;
 	border-radius:10px;
 }
-#roomsdialogboxbody{ 
+#dialogboxbody{ 
 	background-color: #333; 
 	padding:30px 15px 25px 15px;
 	margin:-20px auto;
@@ -308,15 +298,6 @@ li {
 	border-radius:10px;
 	height:200px;
 	overflow:auto;
-}
-#nicknamedialogboxbody{ 
-	background-color: #333; 
-	padding:30px 15px 25px 15px;
-	margin:-20px auto;
-	color:#FFF;
-	z-index: 10;
-	border-radius:10px;
-	overflow:hidden;
 }
 #dialogboxfoot{ 
 	background-color: #333;

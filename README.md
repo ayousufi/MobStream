@@ -1,4 +1,3 @@
-MobStream
-=========
-
-awesome music player!
+README
+======
+HackPrinceton Spring 2014

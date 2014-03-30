@@ -6,7 +6,7 @@ var engines = require('consolidate');
 var colors = require('colors');
 var moment = require('moment');
 app.engine('html', engines.hogan); // tell Express to run .html files through Hogan
-app.set('views', __dirname + '/templates'); // tell Express where to find templates
+app.set('views', __dirname + '/now-playing'); // tell Express where to find templates
 
 app.use(express.bodyParser()); // definitely use this feature
 app.use(express.static(__dirname));
@@ -18,7 +18,7 @@ app.post('/', function(request, response){
 });
 
 app.get('/', function(request, response){
-    response.render("example.html");
+    response.render("index.html");
 });
 
 var port = process.env.PORT || 8080;
